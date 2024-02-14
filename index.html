@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my city</title>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" , content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background: #000;
+        min-height: 200vh;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+      }
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.6s;
+        padding: 40px 100px;
+        z-index: 100000;
+      }
+      header .logo {
+        position: relative;
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        transition: 0.6s;
+      }
+      header ul {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      header ul li {
+        position: relative;
+        list-style: none;
+      }
+      header ul li a {
+        position: relative;
+        text-decoration: none;
+        margin: 0px 15px;
+        color: #fff;
+        letter-spacing: 2px;
+        font-weight: 500;
+        transition: 0.6s;
+      }
+
+      .banner img {
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .banner h1 {
+        color: #fff;
+        position: relative;
+        letter-spacing: 3px;
+        text-transform: lowercase;
+        transition: 0.6s;
+        font-weight: 10;
+        font-size: 120px;
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+      }
+      .land {
+        color: #fff;
+        display: flex;
+        position: relative;
+        letter-spacing: 3px;
+        text-transform: lowercase;
+        transition: 0.6s;
+      }
+
+      .land p {
+        width: 60%;
+        font-weight: 10;
+        font-size: 20px;
+        position: relative;
+        display: box;
+        object: fit;
+        height: 50%;
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+      }
+      .land img {
+        position: relative;
+        width: 50%;
+        height: 50%;
+        align-items: center;
+        float: right;
+        top: 130px;
+        left: 0;
+        object: fit;
+        justify-content: space-between;
+      }
+      .land a {
+        text-shadow: 0px;
+        #land2 {
+          margin: 20px;
+        }
+      }
+      #land2 h2 {
+        position: relative;
+        color: #fff;
+        position: relative;
+        letter-spacing: 2px;
+        text-align: center;
+
+        font-weight: 50;
+        font-size: 50px;
+        margin: 10px;
+      }
+      #land2 ul {
+        text-align: center;
+        margin: 10px;
+        color: #fff;
+        list-style-type: none;
+      }
+      #land2 ul li {
+        font-size: 40px;
+        font-weight: 200;
+        margin: 0;
+        padding: 0;
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+      }
+      #land2 ul li img {
+        object: fit;
+      }
+      #land2 ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 100;
+        margin: 0;
+      }
+      #gallery img {
+        width: 100%;
+        min-height: 50vh;
+      }
+      #footer {
+        position: relative;
+        letter-spacing: 2px;
+
+        color: #fff;
+      }
+      #footer h4 {
+        font-family: cursive;
+        font-size: 50px;
+        text-align: center;
+      }
+      #footer ul li {
+        text-align: center;
+        margin: 10px;
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">The Calcutta</a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#land2">VISIT</a></li>
+        <li><a href="#footer">About me</a></li>
+      </ul>
+    </header>
+    <div class="banner">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Howrah_bridge_at_night.jpg/1200px-Howrah_bridge_at_night.jpg"
+      />
+      <h1>where I live!!</h1>
+    </div>
+    <div class="land">
+      <p>
+        Kolkata (spelled Calcutta before 1 January 2001) is the capital city of
+        the Indian state of West Bengal. It is the second largest city in India
+        after Mumbai.It is on the east bank of the River Hooghly. When it is
+        called Calcutta, it includes the suburbs. This makes it the third
+        largest city of India. This also makes it the world's 8th largest
+        metropolitan area as defined by the United Nations. Kolkata served as
+        the capital of India during the British Raj until 1911. Kolkata was once
+        the center of industry and education. However, it has witnessed
+        political violence and economic problems since 1954. Since 2000, Kolkata
+        has grown due to economic growth. Like other metropolitan cities in
+        India, Kolkata struggles with poverty, pollution and traffic congestion
+        <a href="https://simple.m.wikipedia.org/wiki/Kolkata">read</a>.
+      </p>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Eg67khpzbkv_kv-dHlsWIBlD4MSZfi0x-Q&amp;usqp=CAU"
+      />
+    </div>
+    <div id="land2">
+      <h2><u>PLACES TO VISIT</u></h2>
+      <ul>
+        <li>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRabY5WcQUqY21oJkgW-DnSfsocGWL90_h8A&amp;usqp=CAU"
+          />
+        </li>
+        <li>BELUR MATH</li>
+        <li>
+          <a href="https://en.m.wikipedia.org/wiki/Belur_Math">know more</a>
+        </li>
+        <li>
+          <a
+            href="https://www.google.com/maps/dir//Belur+Math,+Belur,+Howrah,+West+Bengal+711202/@22.6262612,88.352436,14z/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x39f89d73bcbb31eb:0x9e346e968d3e4219!3e0"
+            >find route</a
+          >
+        </li>
+        <li>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-3rmgVbWkasIedEyg2Ff6QPNx_LatSQDvDQ&amp;usqp=CAU"
+          />
+        </li>
+        <li>VICTORIA MEMORIAL</li>
+        <li>
+          <a href="https://en.m.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
+            >know more</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.google.com/maps/dir//Victoria+Memorial+View+point,+Victoria+Memorial+Hall,+1,+Queens+Way,+Maidan,+New+Market+Area,+Taltala,+Kolkata,+West+Bengal+700071/@22.5435947,88.341605,16z/data=!4m6!4m5!1m0!1m2!1m1!1s0x3a0277cab13236d1:0x4530ad082790626f!3e0"
+            >find route</a
+          >
+        </li>
+        <li>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRajhoKyxIYdmvoatj4JjoYEPEwFleAWSZOig&amp;usqp=CAU"
+          />
+        </li>
+        <li>FORT WILLIAM</li>
+        <li>
+          <a href="https://en.m.wikipedia.org/wiki/Fort_William,_India"
+            >know more</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.google.com/maps/dir//H83P%2BM8X,+Maidan,+Fort+William,+Hastings,+Kolkata,+West+Bengal+700021/@22.5531871,88.334022,16z/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x3a0277719d7cdd7b:0x24deb10c464eae56!3e0"
+            >find route</a
+          >
+        </li>
+        <li>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg7OK98RL-a1ngNy7DsgaQDtaKqiT-cTlX4A&amp;usqp=CAU"
+          />
+        </li>
+        <li>SCIENCE CITY</li>
+        <li>
+          <a href="https://en.m.wikipedia.org/wiki/Science_City_Kolkata"
+            >know more</a
+          >
+        </li>
+        <li>
+          <a
+            href='https://www.google.com/maps/dir//Science+City,Kolkata,+JBS+Haldane+Ave,+Mirania+Gardens,+East+Topsia,+Topsia,+Kolkata,+West+Bengal+700046/@22.5401381,88.3960564,13z/data=!4m6!4m5!1m0!1m2!1m1!1s0x3a0276a208cb6793:0x676bbf22d04354e8!3e0""'
+            >find route</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div id="gallery">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Kolkata_Imgs.jpg"
+      />
+    </div>
+    <div id="footer">
+      <h4>Thank you</h4>
+      <h4>CREATED BY</h4>
+      <ul>
+        <li>AMAN JHA</li>
+        <li>CST(2nd sem)</li>
+        <li>Roll.No:49</li>
+      </ul>
+    </div>
+  </body>
+</html>
